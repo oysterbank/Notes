@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5722B81D1AE56CE000CA473D /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722B81C1AE56CE000CA473D /* Note.swift */; };
 		574E7FB91AE015B4002F2FEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574E7FB81AE015B4002F2FEA /* AppDelegate.swift */; };
 		574E7FBB1AE015B4002F2FEA /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574E7FBA1AE015B4002F2FEA /* MasterViewController.swift */; };
 		574E7FBD1AE015B4002F2FEA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574E7FBC1AE015B4002F2FEA /* DetailViewController.swift */; };
@@ -28,7 +27,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5722B81C1AE56CE000CA473D /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		574E7FB31AE015B4002F2FEA /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		574E7FB71AE015B4002F2FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		574E7FB81AE015B4002F2FEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -82,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				574E7FB81AE015B4002F2FEA /* AppDelegate.swift */,
-				5722B81C1AE56CE000CA473D /* Note.swift */,
 				574E7FBA1AE015B4002F2FEA /* MasterViewController.swift */,
 				574E7FBC1AE015B4002F2FEA /* DetailViewController.swift */,
 				574E7FBE1AE015B4002F2FEA /* Main.storyboard */,
@@ -162,8 +159,6 @@
 		574E7FAB1AE015B4002F2FEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftMigration = 0710;
-				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Kristofer Laratta";
 				TargetAttributes = {
@@ -223,7 +218,6 @@
 				574E7FBD1AE015B4002F2FEA /* DetailViewController.swift in Sources */,
 				574E7FBB1AE015B4002F2FEA /* MasterViewController.swift in Sources */,
 				574E7FB91AE015B4002F2FEA /* AppDelegate.swift in Sources */,
-				5722B81D1AE56CE000CA473D /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +415,6 @@
 				574E7FD61AE015B4002F2FEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		574E7FD71AE015B4002F2FEA /* Build configuration list for PBXNativeTarget "NotesTests" */ = {
 			isa = XCConfigurationList;
@@ -430,7 +423,6 @@
 				574E7FD91AE015B4002F2FEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
